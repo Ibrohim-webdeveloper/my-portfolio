@@ -1,0 +1,43 @@
+.Navbar {
+    width: 1200px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-name{
+    font-weight: 700;
+    font-size: 25px;
+    color: #ededed;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+a{
+    font-weight: 500;
+    font-size: 17px;
+    color: #ededed;
+}
+
+a.active{
+    color: #00abf0;
+}
+
+a:hover{
+    color: #00abf0;
+}
