@@ -11,7 +11,7 @@ function Navbar() {
                     </li>
                 </ul>
                 <ul>
-                    <li><NavLink smooth to="#home" style={{ color: '#00abf0', fontWeight: "700"}}>Home</NavLink></li>
+                    <li><NavLink smooth to="#home" style={{ color: '#00abf0', fontWeight: "700" }}>Home</NavLink></li>
                     <li><NavLink smooth to="#about">About</NavLink></li>
                     <li><NavLink smooth to="#skills">Skills</NavLink></li>
                     <li><NavLink smooth to="#hire-me">Hire me</NavLink></li>
